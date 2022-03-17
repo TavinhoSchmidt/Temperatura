@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: cornflowerblue;
+    margin: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(46, 42, 42);
+    border-radius: 20px;
+}
+
+#caixa h1{
+    color: yellow;
+    font-size: 18pt;
+    letter-spacing: 2px;
+    
+}
+
+.cima{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0px;
+    
+}
+
+.baixo{
+    width: 100%;
+    font-size: 12pt;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cima input{
+    width: 78%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px 15px 15px;
+    background-color: yellow;
+    outline: none;
+    color: black;
+}
+
+.cima input::placeholder{
+    color: #f0ffffde;
+    color: black;
+}
+
+.cima select{
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px 15px 8px;
+    background-color: orange;
+    color: black;
+    outline: none;
+}
+
+.cima label{
+    margin-bottom: 10px;
+    font-size: 12pt;
+}
+
+#caixa button{
+    font-size: 17px;
+    width: 80%;
+    padding: 10px 0px;
+    margin-top: 15px;
+    border: 2px black solid;
+    outline: none;
+    color:  black;
+    background-color:yellow;
+}
+#caixa label{
+    color: orange;
+}
+@media only screen and (max-width: 600px) {
+  #caixa{
+    width: 90vw;
+   }
+  }
